@@ -1,26 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome" />
+  <router-view />
 </template>
 
-<script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld,
-  },
-}
-</script>
-
 <style>
+@font-face {
+  font-family: "Gowun";
+  src: url("./assets/GowunBatang-Regular.ttf");
+}
+
+* {
+  font-family: "Gowun";
+}
+
+a {
+  text-decoration: none;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: flex;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  justify-content: center;
+  height: 90vh;
+  align-items: center;
 }
 </style>
