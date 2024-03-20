@@ -1,4 +1,4 @@
 module.exports = {
-  publicPath: '/file-conversion/',
-  outputDir: 'dist',
-}
+  publicPath: "/file-conversion/",
+  outputDir: "dist",
+};
