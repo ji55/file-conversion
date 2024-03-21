@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mainPage">
     <h1 class="mainTitle">{{ kor.MainPage.MainTitle }}</h1>
     <router-link to="Img2Pdf" class="mainSquare">
       <h4>{{ kor.MainPage.ImgToPdf }}</h4>
@@ -15,17 +15,20 @@ import kor from "../../kor.json";
 
 export default {
   name: "MainPage",
-  components: {},
-  computed: {
-    kor() {
-      return kor;
-    },
+  data() {
+    return {
+      kor,
+    };
   },
-  setup() {},
 };
 </script>
 
 <style scoped>
+.mainPage {
+  position: relative;
+  top: 30%;
+}
+
 .mainTitle {
   text-align: center;
 }
