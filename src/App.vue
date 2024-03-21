@@ -17,7 +17,6 @@ a {
 }
 
 #app {
-  display: flex;
   text-align: center;
   justify-content: center;
   height: 90vh;

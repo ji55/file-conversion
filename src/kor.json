@@ -3,5 +3,10 @@
     "MainTitle": "꿀떡을 꿀떡 🍯",
     "ImgToPdf": "이미지 ▶ PDF",
     "Empty": "준비 중"
+  },
+  "Img2Pdf": {
+    "UploadBtn": "업로드 할 파일 선택하기",
+    "ConversionBtn": "PDF로 변환하기",
+    "ConversionMsg": "파일 변환 중입니다. 잠시만 기다려 주세요!"
   }
 }
